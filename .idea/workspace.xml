@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be13d10-2501-47e0-9766-698f64deb3bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +14,12 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fQFj2NjLLBbFFfiBmIZoNwp49W" />
@@ -38,17 +43,44 @@
       <workItem from="1596142544462" duration="885000" />
       <workItem from="1596186385994" duration="22999000" />
       <workItem from="1596379969740" duration="12000" />
-      <workItem from="1596380016622" duration="2444000" />
+      <workItem from="1596380016622" duration="4206000" />
     </task>
+    <task id="LOCAL-00001" summary="gym">
+      <created>1596441124237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596441124238</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="gym" />
+    <option name="LAST_COMMIT_MESSAGE" value="gym" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="716" y="345" key="#Notifications" timestamp="1596393120353">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="716" y="345" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1596393120353" />
+    <state x="583" y="119" key="CommitChangelistDialog2" timestamp="1596441121981">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="583" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1596441121981" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1596441151245">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1596441151245" />
   </component>
 </project>
