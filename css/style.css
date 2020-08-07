@@ -358,7 +358,7 @@ nav .nav-item .nav-link:hover::after {
 }
 
 #team .team-tab .item {
-    border: 1px solid #e1e3db;
+    margin-top: 40px;
 }
 
 #team .team-tab .images {
@@ -450,4 +450,7 @@ nav .nav-item .nav-link:hover::after {
     margin-top: 0;
 }
 
+#team .item:hover {
+    border: 1px solid #e1e3db;
+}
 /*===================================================== our team-end ========================================================================*/
