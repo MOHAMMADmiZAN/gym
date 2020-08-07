@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be13d10-2501-47e0-9766-698f64deb3bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/test-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/test1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/test2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
       <workItem from="1596380016622" duration="4812000" />
       <workItem from="1596819101915" duration="17000" />
       <workItem from="1596819139276" duration="6216000" />
-      <workItem from="1596825427770" duration="1907000" />
+      <workItem from="1596825427770" duration="5193000" />
     </task>
     <task id="LOCAL-00001" summary="gym">
       <created>1596441124237</created>
@@ -87,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596826714736</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="gym">
+      <created>1596827499046</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596827499046</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,13 +121,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="716" y="345" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1596393120353" />
-    <state x="583" y="119" key="CommitChangelistDialog2" timestamp="1596826714167">
+    <state x="583" y="119" key="CommitChangelistDialog2" timestamp="1596827498452">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="583" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1596826714167" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1596826717668">
+    <state x="583" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1596827498452" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1596827502796">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1596826717668" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1596827502796" />
   </component>
 </project>
