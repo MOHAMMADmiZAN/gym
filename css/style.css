@@ -502,7 +502,7 @@ nav .nav-item .nav-link:hover::after {
     font-size: 0;
     position: absolute;
     left: 50%;
-    bottom: 30px;
+    bottom: -30px;
     transform: translateX(-50%);
 }
 
