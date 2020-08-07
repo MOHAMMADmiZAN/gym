@@ -498,11 +498,15 @@ nav .nav-item .nav-link:hover::after {
     line-height: 24px;
 }
 
+#testimonial .item {
+    outline: none;
+}
+
 #testimonial .slick-slider .slick-dots {
     font-size: 0;
     position: absolute;
     left: 50%;
-    bottom: -30px;
+    bottom: -50px;
     transform: translateX(-50%);
 }
 
@@ -529,3 +533,10 @@ nav .nav-item .nav-link:hover::after {
 }
 
 /*===================================================== Testimonial-end ========================================================================*/
+/*===================================================== Member-start ========================================================================*/
+#member {
+    padding: 100px 0;
+}
+
+
+/*===================================================== member-end ========================================================================*/
