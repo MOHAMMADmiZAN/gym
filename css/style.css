@@ -353,6 +353,72 @@ nav .nav-item .nav-link:hover::after {
 
 /*=====================================================gallery-part-end ========================================================================*/
 /*===================================================== our team - start ========================================================================*/
+#team {
+    padding: 100px 0;
+}
 
+#team .team-tab .images {
+    background: #f1f1f1;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+}
+
+#team .team-tab .images-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(1) translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    background: rgba(176, 72, 52, .6);
+    border: 2px solid #e1e3db;
+    transition: 0.4s;
+
+
+}
+
+#team .team-tab .icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+#team .team-tab .icon a {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    border: 1px solid #fff;
+    line-height: 30px;
+    margin: 10px;
+
+}
+
+#team .team-tab .text {
+    text-align: center;
+}
+
+#team .team-tab .text h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#team .team-tab .text h5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#team .team-tab .text p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
 
 /*===================================================== our team-end ========================================================================*/
