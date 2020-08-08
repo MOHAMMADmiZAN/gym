@@ -132,3 +132,43 @@ $('.sponsor-tab').slick({
         // instead of a settings object
     ]
 });
+
+/// variables////
+const win = $(window);
+const html_body = $('html, body');
+const stk = $('.st-menu');
+const b2b = $('.back2top');
+const c_stk = 'sticky';
+const bdy = $('body');
+
+
+//back to top fadetoogle//
+win.scroll(() => win.scrollTop() > 100 ? b2b.fadeIn() : b2b.fadeOut());
+//back to top effect//
+b2b.click(() => html_body.animate({scrollTop: 0}, 2500));
+
+
+// animation scroll js
+$('.nav-item a').on('click', function () {
+    if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+        let target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+            html_body.animate({
+                scrollTop: target.offset().top - 20
+            }, 1500);
+            return false;
+        }
+
+    }
+});
+
+
+//stiky-header//
+win.scroll(() => win.scrollTop() > 300 ? stk.addClass(c_stk) : stk.removeClass(c_stk));
+
+// scroolpy
+bdy.scrollspy({
+    target: '.navbar',
+    offset: 100
+});

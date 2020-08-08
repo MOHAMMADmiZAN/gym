@@ -35,7 +35,7 @@ body {
 
 nav {
     background: rgba(14, 14, 14, 0.5);
-    position: fixed !important;
+    position: absolute !important;
     width: 100%;
     top: 30px;
     left: 0;
@@ -78,6 +78,24 @@ nav .nav-item .nav-link:hover::after {
     width: 100%;
 }
 
+.navbar-nav .nav-item .active {
+    background: #ffffff;
+    color: #222;
+}
+
+.navbar-nav .nav-item .active::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: red;
+    transition: 0.4s;
+
+}
+
+
 .nav-shape {
     background: rgba(50, 50, 50, 0.5);
     padding: 15px 30px;
@@ -91,6 +109,10 @@ nav .nav-item .nav-link:hover::after {
     transform: skew(30deg);
 }
 
+.sticky {
+    position: fixed !important;
+    background: rgba(34, 34, 34, 0.7);
+}
 
 /*=====================================================Nav-bar-End========================================================================*/
 /*=====================================================Banner-part-start========================================================================*/
@@ -787,5 +809,135 @@ nav .nav-item .nav-link:hover::after {
     text-align: center;
 }
 
+#contact .contact-main {
+    border: 1px solid #ffffff;
+    border-left: none;
+    border-right: none;
+    padding: 30px 0 30px 0;
+    color: #ffffff;
+}
+
+#contact .contact-main .contact-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+#contact .contact-main .opening-hours .open-hours {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .contact-main .opening-hours .open-hours p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+#contact .contact-main .twitter .tweet-text {
+    display: flex;
+}
+
+#contact .contact-main .twitter .tweet-text .icon {
+    color: #1da1f2;
+    padding-right: 10px;
+}
+
+#contact .contact-main .twitter .tweet-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+#contact .contact-main .twitter .tweet-text h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+#contact .contact-main .flicker .flicker-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#contact .contact-main .flicker .flicker-img .item {
+    padding: 5px 0;
+}
+
+#contact .contact-main .contact-link .contact-address .item {
+    display: flex;
+    margin: 10px 0;
+}
+
+#contact .contact-main .contact-link .contact-address .item .icon {
+    font-size: 13px;
+    color: #e23e38;
+    padding-right: 10px;
+}
+
+#contact .contact-main .contact-link .contact-address .item .text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#contact .contact-main .contact-link .contact-social a {
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+#contact .contact-main .contact-link .contact-social a:hover {
+    background: #e23e38;
+    border-color: #e23e38;
+}
+
+#contact .cpy {
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.back2top {
+    position: fixed;
+    bottom: 200px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #e23e38;
+    text-align: center;
+    line-height: 40px;
+    z-index: 888;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.back2top a {
+    color: #e23e38;
+    font-size: 16px;
+}
+
+.back2top:hover {
+    background: #e23e38;
+}
+
+.back2top:hover a {
+    color: #ffffff;
+}
 
 /*===================================================== contact-end ========================================================================*/
