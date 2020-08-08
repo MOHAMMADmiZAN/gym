@@ -630,3 +630,143 @@ nav .nav-item .nav-link:hover::after {
 }
 
 /*===================================================== member-end ========================================================================*/
+/*===================================================== counter-start ========================================================================*/
+#counter {
+    background: url("../images/counter-bg.png") no-repeat center;
+    background-size: cover;
+}
+
+#counter .counter-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.5);
+    padding: 40px 0;
+}
+
+#counter .counter-tab {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#counter .counter-tab .item .text h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#counter .counter-tab .item .text h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+
+/*===================================================== counter-end ========================================================================*/
+/*===================================================== class-start ========================================================================*/
+#class {
+    padding: 100px 0;
+}
+
+#class .days {
+    background: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+#class .days .day {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    transition: 0.4s;
+    width: 190px;
+}
+
+#class .days .day:hover {
+    background: #e23e38;
+    color: #ffffff;
+}
+
+#class .class-tab .item {
+    background: #f1f1f1;
+    padding: 50px 30px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.4s;
+    margin: 5px 2px;
+}
+
+#class .class-tab .item .cls-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+#class .class-tab .item .class-time {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+#class .class-tab .item:hover {
+    background: #e23e38;
+    color: #ffffff;
+}
+
+/*===================================================== class-end ========================================================================*/
+/*===================================================== sponsor-start ========================================================================*/
+#sponsor .sponsor-tab {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+#sponsor .sponsor-tab .item {
+    background: #f1f1f1;
+    padding: 30px 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+    outline: none;
+}
+
+#sponsor .sponsor-tab .prev {
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+    font-size: 28px;
+    transition: 0.4s;
+
+}
+
+#sponsor .sponsor-tab .next {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%);
+    font-size: 28px;
+    transition: 0.4s;
+
+}
+
+#sponsor .sponsor-tab .prev:hover {
+    color: #e23e38;
+}
+
+#sponsor .sponsor-tab .next:hover {
+    color: #e23e38;
+}
+
+
+/*===================================================== sponsor-end ========================================================================*/
