@@ -538,5 +538,95 @@ nav .nav-item .nav-link:hover::after {
     padding: 100px 0;
 }
 
+#member .member-tab {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#member .member-tab .item {
+    background: #dddddd;
+    width: 350px;
+    text-align: center;
+}
+
+#member .member-tab .item .mem-head {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 0;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+#member .member-tab .mem-mid {
+    background: url("../images/mem-1.png") no-repeat center;
+    background-size: cover;
+
+}
+
+#member .member-tab .mem-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.6);
+    padding: 40px 0;
+}
+
+#member .member-tab .mem-mid h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    display: inline-block;
+    color: #ffffff;
+}
+
+#member .member-tab .mem-mid h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    display: inline-block;
+    color: #ffffff;
+}
+
+#member .member-tab .mem-service {
+    padding: 20px 0;
+}
+
+#member .member-tab .mem-service p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+#member .member-tab .mem-footer {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0;
+    background: #d2d0d0;
+    transition: 0.4s;
+}
+
+#member .item:hover .mem-head {
+    background: #e23e38;
+    color: #ffffff;
+}
+
+#member .item:hover .mem-footer {
+    background: #e23e38;
+    color: #ffffff;
+}
+
+#member .member-tab .pro {
+    background: url("../images/mem-2.png") no-repeat center;
+    background-size: cover;
+}
+
+#member .stn {
+    background: url("../images/mem-3.png") no-repeat center;
+    background-size: cover;
+}
 
 /*===================================================== member-end ========================================================================*/
